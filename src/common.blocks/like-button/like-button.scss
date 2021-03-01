@@ -1,0 +1,33 @@
+.like-button {
+  width: 40px;
+  height: 20px;
+  box-sizing: border-box;
+  border-radius: 10px;
+  font-size: 0.71rem;
+  color: rgba(31, 32, 65, 0.25);
+  line-height: 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 4px;
+  padding-right: 10px;
+  cursor: pointer;
+  transition: 0.5s ease;
+  border: 1px solid transparent;
+  background-position: top;
+  background-size: 100% 500%;
+  background-image: linear-gradient(white, white),
+    linear-gradient(
+      180deg,
+      rgba(31, 32, 65, 0.25) 20%,
+      #bc9cff 90%,
+      #8ba4f9 100%
+    );
+  box-sizing: border-box;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+  &:hover {
+    color: #bc9cff;
+    background-position: 0 100%;
+  }
+}

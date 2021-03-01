@@ -1,0 +1,349 @@
+{
+  "colorBlocks": [
+    {
+      "theme": "darkShade100",
+      "colorName": "Dark Shade 100%",
+      "colorCode": "#1F2041"
+    },
+    {
+      "theme": "darkShade75",
+      "colorName": "Dark Shade 75%",
+      "colorCode": "#1F2041"
+    },
+    {
+      "theme": "darkShade50",
+      "colorName": "Dark Shade 50%",
+      "colorCode": "#1F2041"
+    },
+    {
+      "theme": "darkShade25",
+      "colorName": "Dark Shade 25%",
+      "colorCode": "#1F2041"
+    },
+    {
+      "theme": "darkShade5",
+      "colorName": "Dark Shade 5%",
+      "colorCode": "#1F2041"
+    },
+    { "theme": "purple", "colorName": "Purple", "colorCode": "#BC9CFF" },
+    { "theme": "green", "colorName": "Green", "colorCode": "#6FCF97" }
+  ],
+  "typeBlocks": [
+    { "tag": "h1", "text": "This one is the sub-section or widget title" },
+    { "tag": "h2", "text": "Next one is the item title inside widgets" },
+    { "tag": "h3", "text": "THIS IS A LABEL OR CTA TEXT" },
+    {
+      "tag": "span",
+      "text": "This is the body text which is used for most of&nbsp;the design, like paragraphs, lists, etc."
+    }
+  ],
+  "textField": { "placeholderText": "Email" },
+  "dropdown": { "type": "guests", "id": "uiDrop", "title": "dropdown" },
+  "maskedTextField": { "placeholderText": "ДД.ММ.ГГГГ", "type": "masked" },
+  "dateDropdown": {
+    "type": "date",
+    "id": "uiDateDrop",
+    "title": "date Dropdown",
+    "title2": "date Dropdown"
+  },
+  "filterDateDropdown": {
+    "type": "filter_date",
+    "id": "uiFilterDateDrop",
+    "title": "filter date dropdown"
+  },
+  "subscriptionTextField": {
+    "placeholderText": "Email",
+    "type": "subscription"
+  },
+  "comfortDropDown": {
+    "type": "comfort",
+    "id": "uiComfortDrop",
+    "title": "dropdown"
+  },
+  "expandableCheckboxList": {
+    "checkboxes": [
+      { "label": "Завтрак", "id": "breakfast" },
+      { "label": "Письменный стол", "id": "desk", "checked": true },
+      { "label": "Стул для кормления", "id": "feedingChair", "checked": true },
+      { "label": "Кроватка", "id": "crib", "checked": true },
+      { "label": "Телевизор", "id": "tv" },
+      { "label": "Шампунь", "id": "shampoo" }
+    ],
+    "title": "expandable checkbox list",
+    "id": "expandable- checkbox-list"
+  },
+  "checkboxButtons": [
+    { "label": "Можно курить", "id": "noSmoking" },
+    { "label": "Можно с питомцами", "id": "pets", "checked": true },
+    {
+      "label": "Можно пригласить гостей (до&nbsp10&nbspчеловек)",
+      "id": "guests",
+      "checked": true
+    }
+  ],
+  "radioButton": {
+    "buttons": [
+      {
+        "id": "radio1",
+        "name": "radio",
+        "value": "male",
+        "text": "Мужчина",
+        "checked": true
+      },
+      { "id": "radio2", "name": "radio", "value": "female", "text": "Женщина" }
+    ]
+  },
+  "toggle": {
+    "text": "Получать спецпредложения",
+    "name": "specialOffers",
+    "id": "specialOffers"
+  },
+  "likeButtons": [{ "likesCount": 2 }, { "likesCount": 12, "checked": true }],
+  "rateButtons": [{ "rate": 4 }, { "rate": 5 }],
+  "richCheckboxButtons": [
+    {
+      "label": "Широкий коридор",
+      "id": "wideCorridor",
+      "checked": false,
+      "rich": true,
+      "text": "Ширина коридоров в номере не&nbsp;менее 91 см."
+    },
+    {
+      "label": "Помощник для инвалидов",
+      "id": "disabledAssistant",
+      "checked": false,
+      "rich": true,
+      "text": "На 1 этаже вас встретит специалист и&nbsp;проводит до номера."
+    }
+  ],
+  "rangeSlider": {
+    "title": "Range Slider",
+    "min1": 0,
+    "min2": 0,
+    "max1": 15000,
+    "max2": 15000,
+    "value1": 5000,
+    "value2": 10000
+  },
+  "button": { "text": "click me" },
+  "borderButton": { "text": "click me", "type": "border" },
+  "onlyTextButtons": [
+    { "text": "click me", "type": "onlyText" },
+    { "text": "click me", "type": "onlyText", "theme": "gray" }
+  ],
+  "arrowButton": { "text": "перейти к оплате", "type": "arrow" },
+  "pagination": { "numberOfPages": 15, "activePage": 1 },
+  "bulletList": {
+    "menuItems": [
+      "Нельзя с питомцами",
+      "Без вечеринок и мероприятий",
+      "Время прибытия — после 13:00, а&nbsp;выезд до 12:00"
+    ]
+  },
+  "roomsDetails": [
+    {
+      "icon": "insert_emoticon",
+      "title": "Комфорт",
+      "description": "Шумопоглащающие стены"
+    },
+    {
+      "icon": "location_city",
+      "title": "Удобство",
+      "description": "Окно в каждой из спален"
+    }
+  ],
+  "guestReview": {
+    "photo": "../images/reviewPhoto1.png",
+    "name": "Мурад Сарафанов",
+    "days": 5,
+    "likes": 12,
+    "checkedLike": true,
+    "review": "Великолепный матрас на кровати в основной спальне! А пуфик вообще потрясающий. И стены, действительно, шумоподавляющие. Выкрикивал комплименты повару — никто не жаловался из соседей."
+  },
+  "searchRoomCard": {
+    "title": "Найдём номера под ваши пожелания",
+    "dropdown1": {
+      "type": "date",
+      "id": "searchRoomDateDrop",
+      "title": "прибытие",
+      "title2": "выезд"
+    },
+    "dropdown2": {
+      "type": "guests",
+      "id": "searchRoomGuestsDrop",
+      "title": "гости"
+    },
+    "button": { "type": "arrow", "text": "подобрать номер" }
+  },
+  "registrationCard": {
+    "title": "Регистрация аккаунта",
+    "textFieldName": { "placeholderText": "Имя" },
+    "textFieldSurname": { "placeholderText": "Фамилия" },
+    "radioButton": {
+      "buttons": [
+        {
+          "id": "radioMale",
+          "name": "radioGender",
+          "value": "male",
+          "text": "Мужчина",
+          "checked": true
+        },
+        {
+          "id": "radioFemale",
+          "name": "radioGender",
+          "value": "female",
+          "text": "Женщина"
+        }
+      ]
+    },
+    "textFieldBirth": {
+      "placeholderText": "ДД.ММ.ГГГГ",
+      "type": "masked",
+      "title": "Дата рождения"
+    },
+    "textFieldEmail": {
+      "placeholderText": "Email",
+      "title": "Данные для входа в сервис"
+    },
+    "textFieldPassword": { "placeholderText": "Пароль" },
+    "toggle": {
+      "text": "Получать спецпредложения",
+      "name": "toggleSpecialOffers",
+      "id": "toggleSpecialOffers"
+    },
+    "buttonPayment": { "type": "arrow", "text": "перейти к оплате" },
+    "loginLabel": "Уже есть аккаунт на Toxin",
+    "buttonEntry": { "type": "border", "text": "войти" }
+  },
+  "roomRateCard": {
+    "roomNumber": 888,
+    "lux": true,
+    "roomRate": 9990,
+    "serviceCost": -2179,
+    "additionalServiceCost": 300,
+    "dropdown1": {
+      "type": "date",
+      "id": "roomRateDateDrop",
+      "title": "прибытие",
+      "title2": "выезд"
+    },
+    "dropdown2": { "type": "guests", "id": "roomRateDrop", "title": "гости" },
+    "button": { "type": "arrow", "text": "забронировать" }
+  },
+  "entryCard": {
+    "title": "Войти",
+    "textFieldEmail": { "placeholderText": "Email" },
+    "textFieldPassword": { "placeholderText": "Пароль" },
+    "buttonEntry": { "type": "arrow", "text": "войти" },
+    "accountSectionLabel": "Нет аккаунта на Toxin?",
+    "buttonCreateAccount": { "type": "border", "text": "создать" }
+  },
+  "numberCards": [
+    {
+      "roomNumber": 888,
+      "lux": true,
+      "roomRate": 9990,
+      "rating": 5,
+      "reviewsNumber": 145,
+      "images": [
+        "../images/number1.png",
+        "../images/number6.png",
+        "../images/number10.png",
+        "../images/number7.png"
+      ]
+    },
+    {
+      "roomNumber": 840,
+      "lux": false,
+      "roomRate": 9900,
+      "rating": 4,
+      "reviewsNumber": 65,
+      "images": [
+        "../images/number2.png",
+        "../images/number12.png",
+        "../images/number8.png",
+        "../images/number3.png"
+      ]
+    }
+  ],
+  "header": {
+    "logoPath": "../images/logo.svg",
+    "navbar": [
+      "О нас",
+      {
+        "title": "Услуги",
+        "items": [
+          "Обслуживание номеров",
+          "Парковка",
+          "Персональный сейф",
+          "Интернет",
+          "Кабельное телевидние",
+          "Питание"
+        ]
+      },
+      "Вакансии",
+      "Новости",
+      {
+        "title": "Соглашения",
+        "items": [
+          "Правила проживания",
+          "Бонусная программа",
+          "Политика конфиденциальности"
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "info": [
+      {
+        "listStyle": "footer__info-column footer__info-column_width-260",
+        "image": {
+          "class": "footer__logo",
+          "src": "/assets/images/logo.svg",
+          "alt": "logo"
+        },
+        "items": [
+          "<img class='footer__logo' src='/assets/images/logo.svg', alt='logo'/>",
+          "Бронирование номеров в лучшем отеле 2019 года по версии ассоциации «Отельные взгляды»"
+        ]
+      },
+      {
+        "listStyle": "footer__info-column",
+        "title": "Навигация",
+        "items": ["О нас", "Новости", "Служба поддержки", "Услуги"]
+      },
+      {
+        "listStyle": "footer__info-column",
+        "title": "О нас",
+        "items": ["О сервисе", "Наша команда", "Вакансии", "Инвесторы"]
+      },
+      {
+        "listStyle": "footer__info-column",
+        "title": "Служба поддержки",
+        "items": ["Соглашения", "Сообщества", "Связь с нами"]
+      },
+      {
+        "listStyle": "footer__info-column footer__info-column_width-260",
+        "title": "Подписка",
+        "items": [
+          "Получайте специальные предложения и новости сервиса",
+          {
+            "textField": { "placeholderText": "Email", "type": "subscription" }
+          }
+        ]
+      }
+    ],
+    "copyright": {
+      "image": "/assets/images/logo.svg",
+      "text": "Copyright © 2018 Toxin отель. Все права зачищены.",
+      "social": [
+        { "href": "https://twitter.com/", "class": "fab fa-twitter" },
+        {
+          "href": "https://www.facebook.com/",
+          "class": "fab fa-facebook-square"
+        },
+        { "href": "https://www.instagram.com/", "class": "fab fa-instagram" }
+      ]
+    }
+  }
+}

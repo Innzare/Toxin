@@ -1,0 +1,16 @@
+extends ../layout-for-pages/layout-for-pages
+
+block includs
+    include ../../common.blocks/registration-card/registration-card.pug
+    
+
+block title
+    | Registration Page
+
+block content
+    .registration
+        .registration__background.registration-page__background_first
+        .registration__background.registration-page__background_second
+        .registration__body-content
+            .registration__card-container
+                +registration-card(config.registrationPage)
